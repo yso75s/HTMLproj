@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영상</title>
+    <link rel="stylesheet" href="../css/mystyle.css">
+
+<style>
+    article {
+        float: left;
+        padding: 33px;
+        box-sizing: border-box;
+        width: 100%;
+        background-color: rgb(224, 250, 255);
+        height: auto;
+        text-align: center;
+    }
+
+    text.a {
+      font-family: "Sofia", sans-serif;
+      font-size: 60px;
+      text-shadow: 3px 3px 3px #ababab;
+    }
+</style>
+
+</head>
+<body>
+    <svg height="120" width="100%">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color: rgb(255, 214, 214);stop-opacity:1" />
+            <stop offset="100%" style="stop-color:rgb(255, 255, 255);stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+        <text fill="#000000" font-size="60" font-family="Sofia" x="50" y="80" text class="a">Daily Life in Japan &#128151;</text>
+      </svg>
+
+      <ul>
+        <li><a class="active" href="./index.html">인사글</a></li>
+        <li><a href="./airport.html">공항</a></li>
+        <li><a href="./attraction.html">명소</a></li>
+        <li><a href="./food.html">먹거리</a></li>
+        <li><a href="./hotel.html">호텔</a></li>
+        <li><a href="./youtube.html">영상</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">개인정보</a>
+          <div class="dropdown-content" >
+            <a href="https://adpr.chungwoon.ac.kr/adpr/index.do" target="_blank">청운대 광고홍보학과</a>
+            <a href="http://www.youtube.com" target="_blank">유튜브</a>
+          </div>
+        </li>
+      </ul>
+
+      <article>
+        <h1>일본의 일상, 유튜브 영상</h1>
+        <iframe width="350" height="250" 
+        src="https://www.youtube.com/embed/g5q11pDYTlk">
+        </iframe>
+
+        <iframe width="350" height="250" 
+        src="https://www.youtube.com/embed/g5q11pDYTlk">
+        </iframe>
+
+        <iframe width="350" height="250" 
+        src="https://www.youtube.com/embed/g5q11pDYTlk">
+        </iframe>
+        <br>
+        <p>저의 유튜브 채널에 업로드된 일본 일상입니다!</p>
+        <p>즐겁게 관람해주시길 &#128150;</p>
+        <p>-</p>
+        <p> <del>아직 영상 제작이 완료되지 않은 관계로, 아무 영상으로 대체함, 유튜스 숏츠 영상 3개 업로드 할 예정</del> </p>
+        <p> <del>메뉴바 - 개인정보 - 유튜브도 나의 유튜브 채널 연결지을 예정</del> </p>
+      </article>
+
+</body>
+</html>
